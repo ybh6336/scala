@@ -6,6 +6,6 @@ package basic
   */
 object HelloWorldObject {
   def main(args: Array[String]) {
-    println("Hello Scala object");
+    println("Hello Scala object")
   }
 }

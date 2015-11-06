@@ -15,11 +15,13 @@ class HelloWorldClass {
 
 object HelloWorldClass {
   def main(args: Array[String]) {
-    println("Hello Scala class...er object");
+    println("Hello Scala class...er object")
   }
 
   // the following syntax (with an = for method definition) also works
+  // this, as a matter of fact, is the preferred syntax and the syntax
+  // above would be deprecated in a future release of Scala
   /*def main(args: Array[String]) = {
-    println("Hello Scala class...er object");
+    println("Hello Scala class...er object")
   }*/
 }

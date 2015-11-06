@@ -15,13 +15,22 @@ package basic
   *   declared void.
   */
 object SingletonObject {
-  private var counter: Int = 0;
+  private var counter: Int = 0
 
-  def getCounter(): Int = {
-    counter;
+//  def getCounter(): Int = {
+//    counter;
+//  }
+
+  /**
+    * a parameterless method can be written without parenthesis
+    * @return
+    */
+  def getCounter: Int = {
+    counter
   }
 
+
   def incrementCounter(): Unit = {
-    counter += 1;
+    counter += 1
   }
 }
